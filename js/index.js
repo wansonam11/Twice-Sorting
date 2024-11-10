@@ -1,5 +1,5 @@
-//isotope
 window.addEventListener("load", () => {
+  //isotope
   const pictures = new Isotope("section", {
     itemSelector: "article",
     columnWidth: "article",
@@ -17,8 +17,8 @@ window.addEventListener("load", () => {
   });
 
   function activation(e) {
-    for (let btn of btns) btn.classList.remove("on");
-    e.currentTarget.classList.add("on");
+    for (let btn of btns) btn.classList.remove("active");
+    e.currentTarget.classList.add("active");
 
     const btn_a = e.currentTarget.querySelector("a");
     const filterValue = btn_a.getAttribute("href");

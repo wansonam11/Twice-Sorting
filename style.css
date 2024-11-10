@@ -103,7 +103,7 @@ main ul li a {
   justify-content: center;
   align-items: center;
 }
-main ul li.on a {
+main ul li.active a {
   background: linear-gradient(45deg, hotpink, #fff);
   color: #fff;
   box-shadow: 0px 5px 20px rgb(221, 182, 202);

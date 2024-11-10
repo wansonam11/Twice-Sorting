@@ -117,7 +117,7 @@ main {
         align-items: center;
       }
 
-      &.on a {
+      &.active a {
         background: linear-gradient(45deg, hotpink, #fff);
         color: #fff;
         box-shadow: 0px 5px 20px rgb(221, 182, 202);
